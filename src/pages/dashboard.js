@@ -1,4 +1,4 @@
-import React, { useEffetc } from "react";
+import React, { useEffect } from "react";
 import { navigate } from "gatsby";
 import { Router } from "@reach/router";
 import Layout from "../components/layout";
