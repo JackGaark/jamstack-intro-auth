@@ -8,7 +8,7 @@ import RouteSecret from "../components/route-secret";
 import RouteLogin from "../components/route-login";
 
 const Dashboard = ({ location }) => {
-  useEffetc(() => {
+  useEffect(() => {
     if (location.pathname.match(/^\/dashboard\/?$/)) {
       navigate("/dashboard/login", { replace: true });
     }
