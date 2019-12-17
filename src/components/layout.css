@@ -43,7 +43,7 @@ main {
   text-decoration: none;
 }
 
-.dashboard-header a:hover:not:(.active) {
+.dashboard-header a:hover:not(.active) {
   background: #bbb;
 }
 
